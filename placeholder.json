@@ -1,0 +1,28 @@
+[{
+        "IP_Address": "10.10.10.10",
+        "Caption": "NODE1",
+        "Location": "",
+        "StatusDescription": "Node status is Up.",
+        "Status": "1                   ",
+        "ChildStatus": 1,
+        "StatusName": "Up"
+    },
+    {
+        "IP_Address": "10.10.10.11",
+        "Caption": "NODE2",
+        "Location": "",
+        "StatusDescription": "Node status is Down.",
+        "Status": "1                   ",
+        "ChildStatus": 2,
+        "StatusName": "Down"
+    },
+    {
+        "IP_Address": "10.10.10.12",
+        "Caption": "NODE3",
+        "Location": "",
+        "StatusDescription": "Node status is Up.",
+        "Status": "1                   ",
+        "ChildStatus": 1,
+        "StatusName": "Up"
+    },
+]
