@@ -25,5 +25,14 @@
         "Status": "1                   ",
         "ChildStatus": 2,
         "StatusName": "Down"
+    },
+    {
+        "IP_Address": "10.10.10.13",
+        "Caption": "NODE4",
+        "Location": "",
+        "StatusDescription": "Node status is Up.",
+        "Status": "1                   ",
+        "ChildStatus": 1,
+        "StatusName": "Up"
     }
 ]
