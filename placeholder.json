@@ -14,7 +14,7 @@
         "Location": "",
         "StatusDescription": "Node status is Up.",
         "Status": "1                   ",
-        "ChildStatus": 2,
+        "ChildStatus": 1,
         "StatusName": "Up"
     },
     {
@@ -23,7 +23,7 @@
         "Location": "",
         "StatusDescription": "Node status is Down.",
         "Status": "1                   ",
-        "ChildStatus": 1,
+        "ChildStatus": 2,
         "StatusName": "Down"
     }
 ]
