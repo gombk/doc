@@ -11,7 +11,7 @@
         "Comments": "Sala 1",
         "Department": "Corporativo",
         "DeviceType": "Switch",
-        "CATEGORY_ID_SLA": "48000",
+        "CATEGORY_ID_SLA": "48000"
     },
     {
         "IP_Address": "10.10.10.11",
@@ -25,7 +25,7 @@
         "Comments": "Sala 2",
         "Department": "Corporativo",
         "DeviceType": "Access Point",
-        "CATEGORY_ID_SLA": "48000",
+        "CATEGORY_ID_SLA": "48000"
     },
     {
         "IP_Address": "10.10.10.12",
@@ -39,7 +39,7 @@
         "Comments": "Sala 3",
         "Department": "Fábrica",
         "DeviceType": "Server",
-        "CATEGORY_ID_SLA": "48001",
+        "CATEGORY_ID_SLA": "48001"
     },
     {
         "IP_Address": "10.10.10.13",
@@ -53,6 +53,6 @@
         "Comments": "Sala 6",
         "Department": "Corporativo",
         "DeviceType": "Switch",
-        "CATEGORY_ID_SLA": "48000",
-    },
+        "CATEGORY_ID_SLA": "48000"
+    }
 ]
