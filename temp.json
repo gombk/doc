@@ -1,4 +1,81 @@
-{
-  "umidade": 60,
-  "temperatura": 22
-}
+[
+    {
+        "header":
+        {
+            "locationID":1,
+            "name":"Casa 1",
+            "quadrant":"GH001",
+            "humidity":0,
+            "temperature":0
+        },
+        "sensorData":
+        [
+            {
+                "deviceID":1,
+                "locationID":1,
+                "deviceTypeID":1,
+                "name":"ESP32 - EUCALIPTO",
+                "quadrant":"A0001",
+                "macAddress":"00:00:00:00:00:00",
+                "ipAddress":"192.168.0.1",
+                "humidity":70.00,
+                "temperature":25.50
+            }
+        ],
+        "dataAverageHistory":
+        [
+            {
+                "timeStamp":"2020-01-25T21:56:00",
+                "humidity":70.000000,
+                "temperature":25.500000
+            },
+            {
+                "timeStamp":"2020-01-26T01:24:00",
+                "humidity":70.000000,
+                "temperature":40.000000
+            }
+        ],
+        "dataHistory":
+        [
+            {
+                "regID":1,
+                "locationID":1,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.86",
+                "humidity":70.00,
+                "temperature":25.00
+            },
+            {
+                "regID":2,
+                "locationID":1,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.867",
+                "humidity":70.00,
+                "temperature":26.00
+            },
+            {
+                "regID":3,
+                "locationID":1,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.87",
+                "humidity":70.00,
+                "temperature":25.00
+            },
+            {
+                "regID":4,
+                "locationID":1,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.877",
+                "humidity":70.00,"temperature":26.00
+            },
+            {
+                "regID":6,
+                "locationID":1,
+                "deviceID":1,
+                "timeStamp":"2020-01-26T01:24:28",
+                "humidity":70.00,
+                "temperature":40.00
+            }
+        ]
+    }
+]
