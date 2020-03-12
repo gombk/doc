@@ -14,12 +14,23 @@
                 "deviceID":1,
                 "locationID":1,
                 "deviceTypeID":1,
-                "name":"ESP32 - EUCALIPTO",
+                "name":"ESP32 - CLONE A",
                 "quadrant":"A0001",
                 "macAddress":"B4:43:91:2E:E3:C3",
                 "ipAddress":"192.168.0.1",
                 "humidity":95,
                 "temperature":41
+            },
+            {
+                "deviceID":2,
+                "locationID":1,
+                "deviceTypeID":1,
+                "name":"ESP32 - CLONE B",
+                "quadrant":"A0001",
+                "macAddress":"E4:4C:9C:21:I3:A0",
+                "ipAddress":"192.168.0.2",
+                "humidity":98,
+                "temperature":42
             }
         ],
         "dataAverageHistory":
@@ -72,6 +83,97 @@
             {
                 "regID":6,
                 "locationID":1,
+                "deviceID":1,
+                "timeStamp":"2020-01-26T01:24:28",
+                "humidity":98,
+                "temperature":40
+            }
+        ]
+    },
+    {
+        "header":
+        {
+            "locationID":2,
+            "name":"Casa 2",
+            "quadrant":"GH002",
+            "humidity":97,
+            "temperature":39
+        },
+        "sensorData":
+        [
+            {
+                "deviceID":1,
+                "locationID":2,
+                "deviceTypeID":1,
+                "name":"ESP32 - CLONE A",
+                "quadrant":"A0001",
+                "macAddress":"B4:43:91:2E:E3:C3",
+                "ipAddress":"192.168.0.1",
+                "humidity":99,
+                "temperature":44
+            },
+            {
+                "deviceID":2,
+                "locationID":2,
+                "deviceTypeID":1,
+                "name":"ESP32 - CLONE B",
+                "quadrant":"A0001",
+                "macAddress":"E4:4C:9C:21:I3:A0",
+                "ipAddress":"192.168.0.2",
+                "humidity":98,
+                "temperature":41
+            }
+        ],
+        "dataAverageHistory":
+        [
+            {
+                "timeStamp":"2020-01-25T21:56:00",
+                "humidity":97,
+                "temperature":38
+            },
+            {
+                "timeStamp":"2020-01-26T01:24:00",
+                "humidity":97,
+                "temperature":40
+            }
+        ],
+        "dataHistory":
+        [
+            {
+                "regID":1,
+                "locationID":2,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.86",
+                "humidity":95,
+                "temperature":44
+            },
+            {
+                "regID":2,
+                "locationID":2,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.867",
+                "humidity":92,
+                "temperature":29
+            },
+            {
+                "regID":3,
+                "locationID":2,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.87",
+                "humidity":99,
+                "temperature":37
+            },
+            {
+                "regID":4,
+                "locationID":2,
+                "deviceID":1,
+                "timeStamp":"2020-01-25T21:56:54.877",
+                "humidity":93,
+                "temperature":38
+            },
+            {
+                "regID":6,
+                "locationID":2,
                 "deviceID":1,
                 "timeStamp":"2020-01-26T01:24:28",
                 "humidity":98,
