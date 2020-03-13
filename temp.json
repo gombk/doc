@@ -5,8 +5,8 @@
             "locationID":1,
             "name":"Casa 1",
             "quadrant":"GH001",
-            "humidity":95,
-            "temperature":41
+            "humidity":96,
+            "temperature":42
         },
         "sensorData":
         [
@@ -25,12 +25,23 @@
                 "deviceID":2,
                 "locationID":1,
                 "deviceTypeID":1,
-                "name":"ESP32 - CLONE B",
-                "quadrant":"A0001",
+                "name":"ESP32 - CLONE A",
+                "quadrant":"A0002",
                 "macAddress":"E4:4C:9C:21:I3:A0",
                 "ipAddress":"192.168.0.2",
                 "humidity":98,
                 "temperature":42
+            },
+            {
+                "deviceID":3,
+                "locationID":1,
+                "deviceTypeID":1,
+                "name":"ESP32 - CLONE A",
+                "quadrant":"A0003",
+                "macAddress":"E4:4C:9C:21:I3:A0",
+                "ipAddress":"192.168.0.3",
+                "humidity":96,
+                "temperature":44
             }
         ],
         "dataAverageHistory":
@@ -96,8 +107,8 @@
             "locationID":2,
             "name":"Casa 2",
             "quadrant":"GH002",
-            "humidity":97,
-            "temperature":39
+            "humidity":98,
+            "temperature":42
         },
         "sensorData":
         [
@@ -105,7 +116,7 @@
                 "deviceID":1,
                 "locationID":2,
                 "deviceTypeID":1,
-                "name":"ESP32 - CLONE A",
+                "name":"ESP32 - CLONE B",
                 "quadrant":"A0001",
                 "macAddress":"B4:43:91:2E:E3:C3",
                 "ipAddress":"192.168.0.1",
