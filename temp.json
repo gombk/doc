@@ -232,7 +232,7 @@
                 "name":"ESP32 - CLONE C",
                 "quadrant":"A0003",
                 "macAddress":"C5:AC:12:2E:13:10",
-                "ipAddress":"192.168.0.2",
+                "ipAddress":"192.168.0.3",
                 "humidity":99,
                 "temperature":39
             },
@@ -243,9 +243,20 @@
                 "name":"ESP32 - CLONE C",
                 "quadrant":"A0004",
                 "macAddress":"25:21:1E:29:EE:12",
-                "ipAddress":"192.168.0.2",
+                "ipAddress":"192.168.0.4",
                 "humidity":97,
                 "temperature":38
+            },
+            {
+                "deviceID":5,
+                "locationID":3,
+                "deviceTypeID":1,
+                "name":"ESP32 - CLONE C",
+                "quadrant":"A0004",
+                "macAddress":"A1:2E:C3:22:A2:22",
+                "ipAddress":"192.168.0.5",
+                "humidity":98,
+                "temperature":44
             }
         ],
         "dataAverageHistory":
