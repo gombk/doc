@@ -1,318 +1,459 @@
 [
     {
-        "header":
-        {
-            "locationID":1,
-            "name":"Casa 1",
-            "quadrant":"GH001",
-            "humidity":96,
-            "temperature":42
+        "header": {
+            "locationID": 1,
+            "name": "Casa 1",
+            "quadrant": "GH001",
+            "humidity": 96,
+            "temperature": 42
         },
-        "sensorData":
-        [
+        "sensorData": [
             {
-                "deviceID":1,
-                "locationID":1,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE A",
-                "quadrant":"A0001",
-                "macAddress":"B4:43:91:2E:E3:C3",
-                "ipAddress":"192.168.0.1",
-                "humidity":95,
-                "temperature":41
+                "deviceID": 1,
+                "locationID": 1,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE A",
+                "quadrant": "A0001",
+                "macAddress": "B4:43:91:2E:E3:C3",
+                "ipAddress": "192.168.0.1",
+                "humidity": 95,
+                "temperature": 41
             },
             {
-                "deviceID":2,
-                "locationID":1,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE A",
-                "quadrant":"A0002",
-                "macAddress":"E4:4C:9C:21:I3:A0",
-                "ipAddress":"192.168.0.2",
-                "humidity":98,
-                "temperature":42
+                "deviceID": 2,
+                "locationID": 1,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE A",
+                "quadrant": "A0002",
+                "macAddress": "E4:4C:9C:21:I3:A0",
+                "ipAddress": "192.168.0.2",
+                "humidity": 98,
+                "temperature": 42
             },
             {
-                "deviceID":3,
-                "locationID":1,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE A",
-                "quadrant":"A0003",
-                "macAddress":"E4:4C:9C:21:I3:A0",
-                "ipAddress":"192.168.0.3",
-                "humidity":96,
-                "temperature":44
+                "deviceID": 3,
+                "locationID": 1,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE A",
+                "quadrant": "A0003",
+                "macAddress": "E4:4C:9C:21:I3:A0",
+                "ipAddress": "192.168.0.3",
+                "humidity": 96,
+                "temperature": 44
             }
         ],
-        "dataAverageHistory":
-        [
+        "dataAverageHistory": [
             {
-                "timeStamp":"2020-01-25T21:56:00",
-                "humidity":97,
-                "temperature":38
+                "timeStamp": "2020-01-25T21:56:00",
+                "humidity": 97,
+                "temperature": 38
             },
             {
-                "timeStamp":"2020-01-26T01:24:00",
-                "humidity":97,
-                "temperature":40
+                "timeStamp": "2020-01-26T01:24:00",
+                "humidity": 97,
+                "temperature": 40
             }
         ],
-        "dataHistory":
-        [
+        "dataHistory": [
             {
-                "regID":1,
-                "locationID":1,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.86",
-                "humidity":95,
-                "temperature":44
-            },
-            {
-                "regID":2,
-                "locationID":1,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.867",
-                "humidity":92,
-                "temperature":29
-            },
-            {
-                "regID":3,
-                "locationID":1,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.87",
-                "humidity":99,
-                "temperature":37
-            },
-            {
-                "regID":4,
-                "locationID":1,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.877",
-                "humidity":93,
-                "temperature":38
-            },
-            {
-                "regID":6,
-                "locationID":1,
-                "deviceID":1,
-                "timeStamp":"2020-01-26T01:24:28",
-                "humidity":98,
-                "temperature":40
-            }
-        ]
-    },
-    {
-        "header":
-        {
-            "locationID":2,
-            "name":"Casa 2",
-            "quadrant":"GH002",
-            "humidity":97,
-            "temperature":41
-        },
-        "sensorData":
-        [
-            {
-                "deviceID":1,
-                "locationID":2,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE B",
-                "quadrant":"A0001",
-                "macAddress":"B4:43:91:2E:E3:C3",
-                "ipAddress":"192.168.0.1",
-                "humidity":99,
-                "temperature":44
-            },
-            {
-                "deviceID":2,
-                "locationID":2,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE B",
-                "quadrant":"A0001",
-                "macAddress":"E4:4C:9C:21:I3:A0",
-                "ipAddress":"192.168.0.2",
-                "humidity":98,
-                "temperature":41
-            }
-        ],
-        "dataAverageHistory":
-        [
-            {
-                "timeStamp":"2020-01-25T21:56:00",
-                "humidity":97,
-                "temperature":38
-            },
-            {
-                "timeStamp":"2020-01-26T01:24:00",
-                "humidity":97,
-                "temperature":40
-            }
-        ],
-        "dataHistory":
-        [
-            {
-                "regID":1,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.86",
-                "humidity":95,
-                "temperature":44
-            },
-            {
-                "regID":2,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.867",
-                "humidity":92,
-                "temperature":29
-            },
-            {
-                "regID":3,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.87",
-                "humidity":99,
-                "temperature":37
-            },
-            {
-                "regID":4,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.877",
-                "humidity":93,
-                "temperature":38
-            },
-            {
-                "regID":6,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-26T01:24:28",
-                "humidity":98,
-                "temperature":40
-            }
-        ]
-    },
-    {
-        "header":
-        {
-            "locationID":3,
-            "name":"Casa 3",
-            "quadrant":"GH003",
-            "humidity":96,
-            "temperature":45
-        },
-        "sensorData":
-        [
-            {
-                "deviceID":1,
-                "locationID":3,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE C",
-                "quadrant":"A0001",
-                "macAddress":"B2:13:92:3E:C3:EE",
-                "ipAddress":"192.168.0.1",
-                "humidity":99,
-                "temperature":45
-            },
-            {
-                "deviceID":2,
-                "locationID":3,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE C",
-                "quadrant":"A0002",
-                "macAddress":"E5:5C:1C:22:E3:AA",
-                "ipAddress":"192.168.0.2",
-                "humidity":98,
-                "temperature":43
-            },
-            {
-                "deviceID":3,
-                "locationID":3,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE C",
-                "quadrant":"A0003",
-                "macAddress":"C5:AC:12:2E:13:10",
-                "ipAddress":"192.168.0.3",
-                "humidity":99,
+                "regID": 1,
+                "locationID": 1,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.86",
+                "humidity": 95,
                 "temperature": 44
             },
             {
-                "deviceID":4,
-                "locationID":3,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE C",
-                "quadrant":"A0004",
-                "macAddress":"25:21:1E:29:EE:12",
-                "ipAddress":"192.168.0.4",
-                "humidity":98,
-                "temperature":41
+                "regID": 2,
+                "locationID": 1,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.867",
+                "humidity": 92,
+                "temperature": 29
             },
             {
-                "deviceID":5,
-                "locationID":3,
-                "deviceTypeID":1,
-                "name":"ESP32 - CLONE C",
-                "quadrant":"A0004",
-                "macAddress":"A1:2E:C3:22:A2:22",
-                "ipAddress":"192.168.0.5",
-                "humidity":98,
-                "temperature":42
+                "regID": 3,
+                "locationID": 1,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.87",
+                "humidity": 99,
+                "temperature": 37
+            },
+            {
+                "regID": 4,
+                "locationID": 1,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.877",
+                "humidity": 93,
+                "temperature": 38
+            },
+            {
+                "regID": 6,
+                "locationID": 1,
+                "deviceID": 1,
+                "timeStamp": "2020-01-26T01:24:28",
+                "humidity": 98,
+                "temperature": 40
+            }
+        ]
+    },
+    {
+        "header": {
+            "locationID": 2,
+            "name": "Casa 2",
+            "quadrant": "GH002",
+            "humidity": 97,
+            "temperature": 41
+        },
+        "sensorData": [
+            {
+                "deviceID": 1,
+                "locationID": 2,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE B",
+                "quadrant": "A0001",
+                "macAddress": "B4:43:91:2E:E3:C3",
+                "ipAddress": "192.168.0.1",
+                "humidity": 99,
+                "temperature": 44
+            },
+            {
+                "deviceID": 2,
+                "locationID": 2,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE B",
+                "quadrant": "A0001",
+                "macAddress": "E4:4C:9C:21:I3:A0",
+                "ipAddress": "192.168.0.2",
+                "humidity": 98,
+                "temperature": 41
             }
         ],
-        "dataAverageHistory":
-        [
+        "dataAverageHistory": [
             {
-                "timeStamp":"2020-01-25T21:56:00",
-                "humidity":97,
-                "temperature":38
+                "timeStamp": "2020-01-25T21:56:00",
+                "humidity": 97,
+                "temperature": 38
             },
             {
-                "timeStamp":"2020-01-26T01:24:00",
-                "humidity":97,
-                "temperature":40
+                "timeStamp": "2020-01-26T01:24:00",
+                "humidity": 97,
+                "temperature": 40
             }
         ],
-        "dataHistory":
-        [
+        "dataHistory": [
             {
-                "regID":1,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.86",
-                "humidity":95,
-                "temperature":44
+                "regID": 1,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.86",
+                "humidity": 95,
+                "temperature": 44
             },
             {
-                "regID":2,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.867",
-                "humidity":92,
-                "temperature":29
+                "regID": 2,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.867",
+                "humidity": 92,
+                "temperature": 29
             },
             {
-                "regID":3,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.87",
-                "humidity":99,
-                "temperature":37
+                "regID": 3,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.87",
+                "humidity": 99,
+                "temperature": 37
             },
             {
-                "regID":4,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-25T21:56:54.877",
-                "humidity":93,
-                "temperature":38
+                "regID": 4,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.877",
+                "humidity": 93,
+                "temperature": 38
             },
             {
-                "regID":6,
-                "locationID":2,
-                "deviceID":1,
-                "timeStamp":"2020-01-26T01:24:28",
-                "humidity":98,
-                "temperature":40
+                "regID": 6,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-26T01:24:28",
+                "humidity": 98,
+                "temperature": 40
+            }
+        ]
+    },
+    {
+        "header": {
+            "locationID": 3,
+            "name": "Casa 3",
+            "quadrant": "GH003",
+            "humidity": 96,
+            "temperature": 45
+        },
+        "sensorData": [
+            {
+                "deviceID": 1,
+                "locationID": 3,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE C",
+                "quadrant": "A0001",
+                "macAddress": "B2:13:92:3E:C3:EE",
+                "ipAddress": "192.168.0.1",
+                "humidity": 99,
+                "temperature": 45
+            },
+            {
+                "deviceID": 2,
+                "locationID": 3,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE C",
+                "quadrant": "A0002",
+                "macAddress": "E5:5C:1C:22:E3:AA",
+                "ipAddress": "192.168.0.2",
+                "humidity": 98,
+                "temperature": 43
+            },
+            {
+                "deviceID": 3,
+                "locationID": 3,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE C",
+                "quadrant": "A0003",
+                "macAddress": "C5:AC:12:2E:13:10",
+                "ipAddress": "192.168.0.3",
+                "humidity": 99,
+                "temperature": 44
+            },
+            {
+                "deviceID": 4,
+                "locationID": 3,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE C",
+                "quadrant": "A0004",
+                "macAddress": "25:21:1E:29:EE:12",
+                "ipAddress": "192.168.0.4",
+                "humidity": 98,
+                "temperature": 41
+            },
+            {
+                "deviceID": 5,
+                "locationID": 3,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE C",
+                "quadrant": "A0004",
+                "macAddress": "A1:2E:C3:22:A2:22",
+                "ipAddress": "192.168.0.5",
+                "humidity": 98,
+                "temperature": 42
+            }
+        ],
+        "dataAverageHistory": [
+            {
+                "timeStamp": "2020-01-25T21:56:00",
+                "humidity": 97,
+                "temperature": 38
+            },
+            {
+                "timeStamp": "2020-01-26T01:24:00",
+                "humidity": 97,
+                "temperature": 40
+            }
+        ],
+        "dataHistory": [
+            {
+                "regID": 1,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.86",
+                "humidity": 95,
+                "temperature": 44
+            },
+            {
+                "regID": 2,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.867",
+                "humidity": 92,
+                "temperature": 29
+            },
+            {
+                "regID": 3,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.87",
+                "humidity": 99,
+                "temperature": 37
+            },
+            {
+                "regID": 4,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.877",
+                "humidity": 93,
+                "temperature": 38
+            },
+            {
+                "regID": 6,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-26T01:24:28",
+                "humidity": 98,
+                "temperature": 40
+            }
+        ]
+    },
+    {
+        "header": {
+            "locationID": 4,
+            "name": "Casa 4",
+            "quadrant": "GH004",
+            "humidity": 98,
+            "temperature": 42
+        },
+        "sensorData": [
+            {
+                "deviceID": 1,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0001",
+                "macAddress": "B2:13:92:3E:C3:EE",
+                "ipAddress": "192.168.0.1",
+                "humidity": 99,
+                "temperature": 38
+            },
+            {
+                "deviceID": 2,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0002",
+                "macAddress": "E5:5C:1C:22:E3:AA",
+                "ipAddress": "192.168.0.2",
+                "humidity": 99,
+                "temperature": 39
+            },
+            {
+                "deviceID": 3,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0003",
+                "macAddress": "C5:AC:12:2E:13:10",
+                "ipAddress": "192.168.0.3",
+                "humidity": 100,
+                "temperature": 46
+            },
+            {
+                "deviceID": 4,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0004",
+                "macAddress": "25:21:1E:29:EE:12",
+                "ipAddress": "192.168.0.4",
+                "humidity": 93,
+                "temperature": 42
+            },
+            {
+                "deviceID": 5,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0005",
+                "macAddress": "A1:2E:C3:22:A2:22",
+                "ipAddress": "192.168.0.5",
+                "humidity": 99,
+                "temperature": 45
+            },
+            {
+                "deviceID": 6,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0006",
+                "macAddress": "A1:2E:C3:22:A2:22",
+                "ipAddress": "192.168.0.6",
+                "humidity": 99,
+                "temperature": 39
+            },
+            {
+                "deviceID": 7,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0007",
+                "macAddress": "A1:2E:C3:22:A2:22",
+                "ipAddress": "192.168.0.7",
+                "humidity": 93,
+                "temperature": 41
+            },
+            {
+                "deviceID": 8,
+                "locationID": 4,
+                "deviceTypeID": 1,
+                "name": "ESP32 - CLONE D",
+                "quadrant": "A0008",
+                "macAddress": "A1:2E:C3:22:A2:22",
+                "ipAddress": "192.168.0.8",
+                "humidity": 100,
+                "temperature": 44
+            }
+        ],
+        "dataAverageHistory": [
+            {
+                "timeStamp": "2020-01-25T21:56:00",
+                "humidity": 97,
+                "temperature": 38
+            },
+            {
+                "timeStamp": "2020-01-26T01:24:00",
+                "humidity": 97,
+                "temperature": 40
+            }
+        ],
+        "dataHistory": [
+            {
+                "regID": 1,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.86",
+                "humidity": 95,
+                "temperature": 44
+            },
+            {
+                "regID": 2,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.867",
+                "humidity": 92,
+                "temperature": 29
+            },
+            {
+                "regID": 3,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.87",
+                "humidity": 99,
+                "temperature": 37
+            },
+            {
+                "regID": 4,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-25T21:56:54.877",
+                "humidity": 93,
+                "temperature": 38
+            },
+            {
+                "regID": 6,
+                "locationID": 2,
+                "deviceID": 1,
+                "timeStamp": "2020-01-26T01:24:28",
+                "humidity": 98,
+                "temperature": 40
             }
         ]
     }
